@@ -16,3 +16,7 @@ A PEP is a document that serves as a blueprint for EDI and its community. It can
 PEPs are the main way to suggest significant new features, gather feedback from the community, and record the design choices made for EDI. The author of a PEP is responsible for building agreement within the community and noting any disagreements or concerns.
 
 Since PEPs are stored as text files in a version-controlled repository, their history is preserved. This means anyone can review how a PEP evolved over time, either through git commands or by browsing the history on [GitHub](https://github.com/PASTAplus/PEP).
+
+## PEP Audience
+
+The expected audience for a PEP is two-fold: the primary user is an internal developer or technical editor of EDI, while the secondary user is a community member.

@@ -1,5 +1,5 @@
 # PEP Index
 
-| PEP | Title | Status | Final |
-| --- | ----- |--------| ------- |
-| [PEP-0](peps/pep-0.md) | PEP Purpose and Guidelines | Review | |
+| PEP                    | Title                      | Author/Contact | Status | Final |
+|------------------------|----------------------------|----------------|--------|-------|
+| [PEP-0](peps/pep-0.md) | PEP Purpose and Guidelines | Mark Servilla  | Review |       |

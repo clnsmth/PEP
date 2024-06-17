@@ -50,7 +50,7 @@ Required sections of a PEP include:
 3. **Introduction**: A brief statement about the PEP issue.
 4. **Issue Statement**: A detailed statement of the issue the PEP will address, why the PEP should be considered, and the benefits it will deliver to EDI and/or the user community.
 5. **Proposed Solution**: A detailed explanation of the proposed solution and the business case for its consideration is required. Where relevant, the explanation should include design decisions, security implications, use cases, example implementations,any potential for impact that negatively affects EDI operations or the user community, and an estimation of the proposed effort. Alternative solutions, if any, that were considered but not recommended should also be described in this section.
-6. **Open issue(s)**: A list of open issues that require resolution before the PEP can be adopted and how they will be mitigated.
+6. **Open issue(s)**: A list of open issues that require resolution before the PEP can be adopted and how they will be mitigated. This may include additional software dependencies that need to be resolved, potential security vulnerabilities, funding or resource limitations, or other issues that may affect the implementation of the PEP.
 7. **References**: A list of references that support the PEP.
 8. **Rejection (optional)**: If the PEP is rejected, a section should be added to the PEP by ETSC that details why it was rejected.
 

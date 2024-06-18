@@ -45,8 +45,11 @@ This resolves the issues mentioned in the Issue Statement. In addition, this has
 
 - This change will work well with the concept of a user profile, and with group management features which we are currently planning.
 
+- This will not prevent users from having separate identities in PASTA, as we plan on a mapping process between accounts, which will be optional.
+
 
 ## Open issue(s)
+
 
 
 ## References

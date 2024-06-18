@@ -39,6 +39,8 @@ This resolves the issues mentioned in the Issue Statement. In addition, this has
 
 - This change will work well with the concept of a user profile, and with group management features which we are currently planning.
 
+- This will not prevent users from having separate identities in PASTA, as we plan on a mapping process between accounts, which will be optional.
+
 
 ## Open issue(s)
 
@@ -47,6 +49,7 @@ Implementing the proposed solution will require changes to the PASTA software. T
 1. The current ACL database table contains entries based on existing IdP identifiers. We will need to add a new column to this table to store the URID and then process each unique IdP identifier to create a URID in the user profile table, if an entry does not already exist. New entries created by this process mean that the user has not yet signed in to the system (an existing entry would have been created by the user sign-in process). These entries will be incomplete until the user signs in and completes the required profile attributes not available from the ACL database table.
 2. We plan to require the use of URIDs in metadata-based ACLs. This will require some method (TBD) for data package authors to look up the URID for a given user. 
 3. Groups identifiers will be addressed in a similar manner to URIDs, and will be assigned a group randomly generated identifier called a group random ID (GRID). Issues 1 and 2 also apply to GRIDs.
+
 
 ## References
 
